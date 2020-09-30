@@ -1,10 +1,6 @@
 import re
 
-print("Our Magical Calculator")
-print("Type Quit to Exit")
 
-previous = 0
-run = True
 
 def performMath():
     global run
@@ -26,5 +22,11 @@ def performMath():
             previous = eval(str(previous) + equation)    
        
 
-while run:
-    performMath()
+    
+if __main__(self):
+    print("Our Magical Calculator")
+    print("Type Quit to Exit")
+    previous = 0
+    run = True
+    while run:
+        performMath()
